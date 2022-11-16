@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <div class="highscores">
+    <a href="scores.html">Highscores Page</a>
+  </div>
+  <div class="game-timer"> Time: 
+    <span id="timer">0</span>
+  </div>
+  <div class="all-prop">
+    <div id="main-screen" class="shown">
+      <h1>Coding Quiz</h1>
+      <p>
+        DO YOU WANNA PLAY A GAME...?👹 Answer the following Javascript related questions
+        within the given time limit. You will lose time if you give an incorrect answer. Good luck!
+      </p>
+      <button id="start-button">START</button>
+    </div>
+
+    <div id="questions-screen" class="not-shown">
+      <h2 id="question-header"></h2>
+      <div id="question-choices" class="questions"></div>
+    </div>
+
+    <div id="end-screen" class="not-shown">
+      <h2 id="end-header">Your quiz is over!</h2>
+      <p>Your score is: 
+        <span id="score"></span>
+        .
+      </p>
+
+      <p>
+        Please enter your initials:
+        <input type="text" max="4">
+        <button id="submit-button">Submit</button>
+      </p>
+    </div>
+
+  </div>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/quiz.js"></script>
+  </body>
+</html>
