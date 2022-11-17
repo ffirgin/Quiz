@@ -1,0 +1,32 @@
+/* Add google family fonts? */
+
+.all-prop {
+  margin: auto;
+  max-width: 500px;
+}
+
+.highscores {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  max-width: 200px;
+}
+
+.game-timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+
+.not-shown {
+  display: none;
+}
+
+.shown {
+  text-align: center;
+}
+
+.eachAnswers {
+  display: block;
+}
