@@ -4,8 +4,6 @@
 
 This project is intended to be used as a Quiz application. It will test your knowledge by asking a few questions regarding basic programming. I built this project to build on the foundations of HTML, CSS and JavaScript.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 ## Installation
 
 1. On the repository, click Code, and copy the HTTPS link.
@@ -19,10 +17,6 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Usage
 
 Once loaded into your Live Server or visited through the GitHub Pages, you'll be able to click the start button to take the quiz.
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## License
 
